@@ -35,7 +35,9 @@ Update them before running if your environment differs.
 From the project root:
 
 ```bash
-pip install -r requirements.txt
+uv venv
+.venv\Scripts\activate.bat
+uv pip install -r requirements.txt
 ```
 
 ## Usage
@@ -43,7 +45,7 @@ pip install -r requirements.txt
 Run:
 
 ```bash
-python main.py
+uv run main.py
 ```
 
 You will see:
